@@ -1,0 +1,9 @@
+Will Fritz
+9-23-2016
+Lab Report 4
+
+From the user's perspective the program from part 3 is meant to provide them with options to analyze the wins and losses for the Notre Dame football team.The reange of data stretches from 1900, to present. My particular code offeres five choices: record of the team given a year, the amount of years with at least "n" wins, the amount of years with at least "n" losses, the years with the most winc (and how many wins that is), and the uears with the most losses (and how many losses that is). They are allowed to select any option as much as they want, and analyze the record of any year within the range of the data. They are provided their options through a number system where the numbers 1-5 allow them to choose from one of the choices available. They are also allowed to select 6 which exits the program.
+
+From the programmer's prospective, five additional functions were created on top of the main function. THe main function holds a switch and controls the users input. Depending on what selection the user makes, the switch refers to a particular case which then calls the corresponding function. Every function utilizes the "wins" and "losses" arrays which were provided to us. 
+
+I verified the correctness of the program by selecting each option and manually checking the wins and losses arrays to see if the data matches up. When the user enters a letter rather than an integer, the program continually loops the intial option'sdisplay which in turn must be terminated by control c. However, if any integers other than 1-6 are entered, the program displays a warning and allows the users to re-select. For the functions displaying the years which n wins or losses happened, if a number entered does not have a corresponding year, the function just displays a blank line. This implies that no years contain the data asked for, but neither function explicitly states that that is the case. 
