@@ -1,0 +1,5 @@
+Internally, states.cpp creates a vector of States which is a user made class. This vector is then used in multiple functions so that certain contents can be displayed given inputs by the user.
+
+From the user's perspective, they are give 6 choices. Each one displays states given certain criteria that they are asked to give. The final option is to quit the program. 
+
+I testted for erros by running each function and seeing if the output was what I wanted it to be.
